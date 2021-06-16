@@ -1,21 +1,25 @@
 """Index
-"""x. File options
-"""x. Indent options
+"""1. File options
+"""2. Fold options
+"""3. General options
+"""4. Highlight options
+"""5. Indent options
+"""6. Search options
 syntax on
 
-"". File options
+""1. File options
 set autoread
 set noautowrite
 set encoding=utf-8
 
-"". Fold options
+""2. Fold options
 set foldclose="all
 set foldenable
 set foldlevel=0
 set foldmethod=manual
 set foldopen=all
 
-"". General options
+""3. General options
 set emoji
 set linebreak
 set matchpairs=(:),{:},[:]
@@ -25,13 +29,13 @@ set numberwidth=4
 set ruler
 set showmatch
 
-"". Highlight options
+""4. Highlight options
 set nocursorcolumn
 set cursorline
 set cursorlineopt=number
 set hlsearch
 
-"". Indent options 
+""5. Indent options 
 set autoindent 
 set breakindent
 set nocindent
@@ -44,6 +48,6 @@ set smarttab
 set softtabstop=4
 set tabstop=8
 
-"". Search options
+""6. Search options
 set noignorecase
 set incsearch

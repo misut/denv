@@ -6,3 +6,5 @@ LOCALAPPDATA=${LOCALAPPDATA:0:-1}
 cd "${LOCALAPPDATA}"
 cd Packages/Microsoft.WindowsTerminal_*/LocalState
 cp -f ${PATHCURRENT}/settings/windows_terminal/settings.json .
+
+cp -f ${PATHCURRENT}/settings/vim/.vimrc ~/.
