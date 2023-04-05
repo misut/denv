@@ -35,8 +35,8 @@ set cursorline
 set cursorlineopt=number
 set hlsearch
 
-""5. Indent options 
-set autoindent 
+""5. Indent options
+set autoindent
 set breakindent
 set nocindent
 set copyindent
